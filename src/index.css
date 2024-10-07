@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active hr{
+    display: block;
+}
+
+*{
+    font-family: Outfit;
+}
+
+.knewave-regular {
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  @media (max-width:640px) {
+    a.active{
+        background-color: black;
+        color: aqua;
+    }
+  }
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
